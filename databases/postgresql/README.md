@@ -13,7 +13,7 @@ For PostgreSQL version 10 and above:
 ```
 CREATE USER zbx_monitor WITH PASSWORD '<PASSWORD>' INHERIT;
 GRANT pg_monitor TO zbx_monitor;
-``
+```
 For PostgreSQL version 9.6 and below:
 ```
 CREATE USER zbx_monitor WITH PASSWORD '<PASSWORD>';
