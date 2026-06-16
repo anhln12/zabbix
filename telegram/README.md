@@ -5,9 +5,11 @@
 - Truy cập Alert > Media Types
 - Tạo một media type: Telegram-XXX
 <img width="722" height="550" alt="image" src="https://github.com/user-attachments/assets/d437f2b7-a0f5-4ad4-b014-cecc28875f6d" />
+
   * telegram.sh
   * {ALERT.SUBJECT}
   * {ALERT.MESSAGE}
+ 
 <img width="723" height="232" alt="image" src="https://github.com/user-attachments/assets/aff50de1-c005-46e5-9e14-7e32cecb46ae" />
 <img width="720" height="299" alt="image" src="https://github.com/user-attachments/assets/d0f585c6-60c6-4246-abc2-7f434df2b43d" />
 
