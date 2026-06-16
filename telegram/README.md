@@ -21,3 +21,15 @@ Operational data: {EVENT.OPDATA}
 Original problem ID: {EVENT.ID}
 {TRIGGER.URL}
 ⚠️⚠️⚠️
+
+Với cấu hình Media Type → Script → telegram.sh, Zabbix sẽ tìm script trong thư mục được cấu hình bởi tham số
+```
+AlertScriptsPath=
+```
+```
+grep ^AlertScriptsPath /etc/zabbix/zabbix_server.conf
+AlertScriptsPath=/usr/lib/zabbix/alertscripts
+```
+
+
+
