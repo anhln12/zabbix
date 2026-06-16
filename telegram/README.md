@@ -30,6 +30,8 @@ AlertScriptsPath=
 grep ^AlertScriptsPath /etc/zabbix/zabbix_server.conf
 AlertScriptsPath=/usr/lib/zabbix/alertscripts
 ```
+- Nhấn Save
+
 
 
 
