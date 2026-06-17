@@ -36,6 +36,36 @@ AlertScriptsPath=/usr/lib/zabbix/alertscripts
 ```
 - Nhấn Save
 
+3. Gán Media cho User
+- Truy cập Administration > Users > Chọn user quản trị (hoặc tạo user mới).
+- Chuyển sang tab Media > Nhấn Add.Chọn Type: Telegram.
+- Điền Send to: Nhập dãy Chat ID đã lấy ở bước 1.
+- Nhấn Add và Save/Update
 
+<img width="1143" height="464" alt="image" src="https://github.com/user-attachments/assets/772b8e57-e9b5-4c7c-9161-785e1a93a053" />
 
+<img width="844" height="249" alt="image" src="https://github.com/user-attachments/assets/9bc25485-e7cd-427d-93a6-e8e39bdfefd6" />
+
+4. Tạo Action kích hoạt cảnh báo
+- Truy cập Alert > Actions > Trigger actions > Nhấn Create action.
+- Đặt tên Action (hoặc dùng lại Action đã tạo sẵn)
+<img width="1314" height="603" alt="image" src="https://github.com/user-attachments/assets/de59e6ba-a997-46e9-acfd-916af8022723" />
+
+Ở tab Operations, thiết lập gửi thông báo qua phương thức Telegram tới user bạn vừa gán
+
+<img width="1321" height="605" alt="image" src="https://github.com/user-attachments/assets/50cfe63f-e20e-4e50-9b3a-85d3072169c8" />
+
+<img width="1311" height="618" alt="image" src="https://github.com/user-attachments/assets/e113d079-73f0-4901-a804-b90640c7d382" />
+
+Subject: OK Resolved: {HOSTNAME}:{TRIGGER.NAME}-status-{TRIGGER.STATUS}
+
+Message:
+```
+{TRIGGER.NAME} on {HOSTNAME}
+Status: {TRIGGER.STATUS}
+Severity: {TRIGGER.SEVERITY}
+Values: {ITEM.VALUE1}
+
+☑️☑️☑️
+```
 
