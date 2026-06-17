@@ -44,6 +44,6 @@ fi
 # Telegram API
 KEY="{TOKEN}"
 TIMEOUT="10"
-URL="http://api.telegram.org/bot$KEY/sendMessage"
+URL="https://api.telegram.org/bot$KEY/sendMessage"
 
 curl -x "" -s --max-time $TIMEOUT -d "chat_id=$to&disable_web_page_preview=1&text=$subject $message" "$URL" >/dev/null
