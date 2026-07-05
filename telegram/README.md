@@ -48,7 +48,11 @@ AlertScriptsPath=/usr/lib/zabbix/alertscripts
 
 4. Tạo Action kích hoạt cảnh báo
 - Truy cập Alert > Actions > Trigger actions > Nhấn Create action.
-- Đặt tên Action (hoặc dùng lại Action đã tạo sẵn)
+- Đặt tên Action (hoặc dùng lại Action đã tạo sẵn): Report problems to Zabbix administrators
+
+<img width="1734" height="377" alt="image" src="https://github.com/user-attachments/assets/70e7f048-77a6-4ede-8355-6967640fae8a" />
+
+
 <img width="1314" height="603" alt="image" src="https://github.com/user-attachments/assets/de59e6ba-a997-46e9-acfd-916af8022723" />
 
 Ở tab Operations, thiết lập gửi thông báo qua phương thức Telegram tới user bạn vừa gán
